@@ -136,6 +136,11 @@ This script trains the final XGBoost model and saves it along with the feature v
 **Usage:**
 
 ```bash
+cd notebooks
+```
+
+
+```bash
 python train.py
 
 ```
@@ -247,6 +252,13 @@ CMD ["uvicorn", "predict:app", "--host", "0.0.0.0", "--port", "8000"]
 ---
 
 ### 3. Build the Docker Image
+
+To Navigate to Main Folder
+
+```bash
+.. 
+```
+
 
 ```bash
 docker build -t my-ml-model .
